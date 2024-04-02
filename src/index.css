@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+  --background-color:white;
+  --foreground-color: rgb(255, 0, 85);
+  --primary-text-color:black;
+  --secondary-text-color:white;
+  --toggle-bg:yellow;
+  --toggle-fg: yellowgreen;
+}
+[data-theme='dark'] {
+  --background-color: black;
+  --foreground-color: blue;
+  --primary-text-color:white;
+  --secondary-text-color:black;
+  --toggle-bg: darkblue;
+  --toggle-fg:lightblue;
+}
